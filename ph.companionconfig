@@ -1,0 +1,540 @@
+{
+	"version": 4,
+	"type": "page",
+	"page": {
+		"name": "PAGE",
+		"controls": {
+			"0": {
+				"0": {
+					"type": "pageup"
+				},
+				"1": {
+					"type": "button",
+					"style": {
+						"text": "",
+						"textExpression": false,
+						"size": "auto",
+						"png64": "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",
+						"alignment": "center:center",
+						"pngalignment": "center:center",
+						"color": 16777215,
+						"bgcolor": 0,
+						"show_topbar": "default"
+					},
+					"options": {
+						"relativeDelay": false,
+						"rotaryActions": false,
+						"stepAutoProgress": true
+					},
+					"feedbacks": [],
+					"steps": {
+						"0": {
+							"action_sets": {
+								"down": [
+									{
+										"id": "Znp0G9oypFKgzhaONBjW-",
+										"action": "program",
+										"instance": "5eN0E2LSVIJU3NmWCZpAz",
+										"options": {
+											"channel": 1,
+											"number": 36,
+											"varValue": "",
+											"useVariables": false,
+											"relValue": false
+										},
+										"delay": 0
+									},
+									{
+										"id": "LzTJSsSgKGJy4eSIlMThH",
+										"action": "noteon",
+										"instance": "5eN0E2LSVIJU3NmWCZpAz",
+										"options": {
+											"channel": 1,
+											"note": 34,
+											"velocity": 60,
+											"varValue": "",
+											"useVariables": false,
+											"relValue": false
+										},
+										"delay": 0
+									},
+									{
+										"id": "LQlgq3h09kC-0GXbcpdzX",
+										"action": "noteon",
+										"instance": "5eN0E2LSVIJU3NmWCZpAz",
+										"options": {
+											"channel": 1,
+											"note": 34,
+											"velocity": 60,
+											"varValue": "",
+											"useVariables": false,
+											"relValue": false
+										},
+										"delay": 500
+									},
+									{
+										"id": "px4nzyDl3ZT1ad3wyNy15",
+										"action": "noteon",
+										"instance": "5eN0E2LSVIJU3NmWCZpAz",
+										"options": {
+											"channel": 1,
+											"note": 34,
+											"velocity": 60,
+											"varValue": "",
+											"useVariables": false,
+											"relValue": false
+										},
+										"delay": 1000
+									},
+									{
+										"id": "2lhj41PzCUIjW_LHjA1dC",
+										"action": "noteoff",
+										"instance": "5eN0E2LSVIJU3NmWCZpAz",
+										"options": {
+											"channel": 1,
+											"note": 34,
+											"velocity": 0,
+											"varValue": "",
+											"useVariables": false,
+											"relValue": false
+										},
+										"delay": 1250
+									},
+									{
+										"id": "T5YDUdaccO5GhR-K_zMA-",
+										"action": "noteon",
+										"instance": "5eN0E2LSVIJU3NmWCZpAz",
+										"options": {
+											"channel": 1,
+											"note": 36,
+											"velocity": 60,
+											"varValue": "",
+											"useVariables": false,
+											"relValue": false
+										},
+										"delay": 1250
+									},
+									{
+										"id": "gJbDKcbU1A2rh4-6qCXz3",
+										"action": "noteoff",
+										"instance": "5eN0E2LSVIJU3NmWCZpAz",
+										"options": {
+											"channel": 1,
+											"note": 36,
+											"velocity": 0,
+											"varValue": "",
+											"useVariables": false,
+											"relValue": false
+										},
+										"delay": 2250
+									},
+									{
+										"id": "rFtNR8KS0Q686ngW6_Hrq",
+										"action": "noteon",
+										"instance": "5eN0E2LSVIJU3NmWCZpAz",
+										"options": {
+											"channel": 1,
+											"note": 29,
+											"velocity": 60,
+											"varValue": "",
+											"useVariables": false,
+											"relValue": false
+										},
+										"delay": 2250
+									},
+									{
+										"id": "UzrWQNlGJjoRVzZog1fqg",
+										"action": "noteoff",
+										"instance": "5eN0E2LSVIJU3NmWCZpAz",
+										"options": {
+											"channel": 1,
+											"note": 29,
+											"velocity": 0,
+											"varValue": "",
+											"useVariables": false,
+											"relValue": false
+										},
+										"delay": 2600
+									},
+									{
+										"id": "BbcbNs0hrgBysElYx8aBy",
+										"action": "noteon",
+										"instance": "5eN0E2LSVIJU3NmWCZpAz",
+										"options": {
+											"channel": 10,
+											"note": 36,
+											"velocity": 127,
+											"varValue": "",
+											"useVariables": false,
+											"relValue": false
+										},
+										"delay": 0
+									},
+									{
+										"id": "4gRvFBVrrP-3UQt2KYFT-",
+										"action": "noteon",
+										"instance": "5eN0E2LSVIJU3NmWCZpAz",
+										"options": {
+											"channel": 10,
+											"note": 49,
+											"velocity": 127,
+											"varValue": "",
+											"useVariables": false,
+											"relValue": false
+										},
+										"delay": 0
+									},
+									{
+										"id": "HF9Bs3UaNy7hG_uLHVM3n",
+										"action": "noteoff",
+										"instance": "5eN0E2LSVIJU3NmWCZpAz",
+										"options": {
+											"channel": 10,
+											"note": 49,
+											"velocity": 0,
+											"varValue": "",
+											"useVariables": false,
+											"relValue": false
+										},
+										"delay": 120
+									},
+									{
+										"id": "sDV8WN-6foNPxtCUkosGw",
+										"action": "noteoff",
+										"instance": "5eN0E2LSVIJU3NmWCZpAz",
+										"options": {
+											"channel": 10,
+											"note": 36,
+											"velocity": 0,
+											"varValue": "",
+											"useVariables": false,
+											"relValue": false
+										},
+										"delay": 120
+									},
+									{
+										"id": "BZGka9Hym5OBqr2U_-Xow",
+										"action": "noteon",
+										"instance": "5eN0E2LSVIJU3NmWCZpAz",
+										"options": {
+											"channel": 10,
+											"note": 42,
+											"velocity": 127,
+											"varValue": "",
+											"useVariables": false,
+											"relValue": false
+										},
+										"delay": 370
+									},
+									{
+										"id": "VQIBBnMjpHCc8pLBDGbv1",
+										"action": "noteoff",
+										"instance": "5eN0E2LSVIJU3NmWCZpAz",
+										"options": {
+											"channel": 10,
+											"note": 42,
+											"velocity": 0,
+											"varValue": "",
+											"useVariables": false,
+											"relValue": false
+										},
+										"delay": 500
+									},
+									{
+										"id": "WaZlgTBQZdv3XFz9WwzgF",
+										"action": "noteon",
+										"instance": "5eN0E2LSVIJU3NmWCZpAz",
+										"options": {
+											"channel": 10,
+											"note": 36,
+											"velocity": 127,
+											"varValue": "",
+											"useVariables": false,
+											"relValue": false
+										},
+										"delay": 620
+									},
+									{
+										"id": "h2f2XN1dVC0gW0ZowsNKK",
+										"action": "noteoff",
+										"instance": "5eN0E2LSVIJU3NmWCZpAz",
+										"options": {
+											"channel": 10,
+											"note": 36,
+											"velocity": 0,
+											"varValue": "",
+											"useVariables": false,
+											"relValue": false
+										},
+										"delay": 750
+									},
+									{
+										"id": "gjXRfJsYw3vkV3iM2YGQX",
+										"action": "noteon",
+										"instance": "5eN0E2LSVIJU3NmWCZpAz",
+										"options": {
+											"channel": 10,
+											"note": 38,
+											"velocity": 127,
+											"varValue": "",
+											"useVariables": false,
+											"relValue": false
+										},
+										"delay": 750
+									},
+									{
+										"id": "ukU_4T1WMhRgJyjF9FWat",
+										"action": "noteoff",
+										"instance": "5eN0E2LSVIJU3NmWCZpAz",
+										"options": {
+											"channel": 10,
+											"note": 38,
+											"velocity": 0,
+											"varValue": "",
+											"useVariables": false,
+											"relValue": false
+										},
+										"delay": 870
+									},
+									{
+										"id": "gFHVnJp3sQK8KbdQa1qAv",
+										"action": "noteon",
+										"instance": "5eN0E2LSVIJU3NmWCZpAz",
+										"options": {
+											"channel": 10,
+											"note": 36,
+											"velocity": 127,
+											"varValue": "",
+											"useVariables": false,
+											"relValue": false
+										},
+										"delay": 1120
+									},
+									{
+										"id": "IMUHVvmq5u79wmQYsOyLT",
+										"action": "noteon",
+										"instance": "5eN0E2LSVIJU3NmWCZpAz",
+										"options": {
+											"channel": 10,
+											"note": 42,
+											"velocity": 127,
+											"varValue": "",
+											"useVariables": false,
+											"relValue": false
+										},
+										"delay": 1120
+									},
+									{
+										"id": "M4riXVpM4BqWtm5gu8LrQ",
+										"action": "noteoff",
+										"instance": "5eN0E2LSVIJU3NmWCZpAz",
+										"options": {
+											"channel": 10,
+											"note": 42,
+											"velocity": 0,
+											"varValue": "",
+											"useVariables": false,
+											"relValue": false
+										},
+										"delay": 1250
+									},
+									{
+										"id": "p2dB2kxebjgzXOqdyBG7v",
+										"action": "noteoff",
+										"instance": "5eN0E2LSVIJU3NmWCZpAz",
+										"options": {
+											"channel": 10,
+											"note": 36,
+											"velocity": 0,
+											"varValue": "",
+											"useVariables": false,
+											"relValue": false
+										},
+										"delay": 1250
+									},
+									{
+										"id": "qSdTIxXeT6IE1MLwEGxtp",
+										"action": "noteon",
+										"instance": "5eN0E2LSVIJU3NmWCZpAz",
+										"options": {
+											"channel": 10,
+											"note": 42,
+											"velocity": 127,
+											"varValue": "",
+											"useVariables": false,
+											"relValue": false
+										},
+										"delay": 1500
+									},
+									{
+										"id": "Nlz_N_wEH7nmAfo_2LGcB",
+										"action": "noteoff",
+										"instance": "5eN0E2LSVIJU3NmWCZpAz",
+										"options": {
+											"channel": 10,
+											"note": 42,
+											"velocity": 0,
+											"varValue": "",
+											"useVariables": false,
+											"relValue": false
+										},
+										"delay": 1620
+									},
+									{
+										"id": "1T32Ql2WqGbMekG5mM89S",
+										"action": "noteon",
+										"instance": "5eN0E2LSVIJU3NmWCZpAz",
+										"options": {
+											"channel": 10,
+											"note": 36,
+											"velocity": 127,
+											"varValue": "",
+											"useVariables": false,
+											"relValue": false
+										},
+										"delay": 1750
+									},
+									{
+										"id": "6SCH8fSUoVjCukSXC85Qu",
+										"action": "noteoff",
+										"instance": "5eN0E2LSVIJU3NmWCZpAz",
+										"options": {
+											"channel": 10,
+											"note": 36,
+											"velocity": 0,
+											"varValue": "",
+											"useVariables": false,
+											"relValue": false
+										},
+										"delay": 1870
+									},
+									{
+										"id": "wgSDew9X0OaBis9gYi0go",
+										"action": "noteon",
+										"instance": "5eN0E2LSVIJU3NmWCZpAz",
+										"options": {
+											"channel": 10,
+											"note": 46,
+											"velocity": 127,
+											"varValue": "",
+											"useVariables": false,
+											"relValue": false
+										},
+										"delay": 1870
+									},
+									{
+										"id": "TY-XgWyAjgEk5W8JCW11z",
+										"action": "noteoff",
+										"instance": "5eN0E2LSVIJU3NmWCZpAz",
+										"options": {
+											"channel": 10,
+											"note": 46,
+											"velocity": 0,
+											"varValue": "",
+											"useVariables": false,
+											"relValue": false
+										},
+										"delay": 2000
+									},
+									{
+										"id": "rPfcyULCAJfeB4OZ1FImP",
+										"action": "noteon",
+										"instance": "5eN0E2LSVIJU3NmWCZpAz",
+										"options": {
+											"channel": 10,
+											"note": 42,
+											"velocity": 127,
+											"varValue": "",
+											"useVariables": false,
+											"relValue": false
+										},
+										"delay": 2250
+									},
+									{
+										"id": "IwAEtPE5-ZdTXDX4Y4QIJ",
+										"action": "noteon",
+										"instance": "5eN0E2LSVIJU3NmWCZpAz",
+										"options": {
+											"channel": 10,
+											"note": 38,
+											"velocity": 127,
+											"varValue": "",
+											"useVariables": false,
+											"relValue": false
+										},
+										"delay": 2250
+									},
+									{
+										"id": "9YNwUhu9YUzQK1K3TW-Q_",
+										"action": "noteoff",
+										"instance": "5eN0E2LSVIJU3NmWCZpAz",
+										"options": {
+											"channel": 10,
+											"note": 38,
+											"velocity": 0,
+											"varValue": "",
+											"useVariables": false,
+											"relValue": false
+										},
+										"delay": 2370
+									},
+									{
+										"id": "E4bd3xCfI37N2qkwU8N-K",
+										"action": "noteoff",
+										"instance": "5eN0E2LSVIJU3NmWCZpAz",
+										"options": {
+											"channel": 10,
+											"note": 42,
+											"velocity": 0,
+											"varValue": "",
+											"useVariables": false,
+											"relValue": false
+										},
+										"delay": 2370
+									}
+								],
+								"up": []
+							},
+							"options": {
+								"runWhileHeld": []
+							}
+						}
+					}
+				}
+			},
+			"1": {
+				"0": {
+					"type": "pagenum"
+				}
+			},
+			"2": {
+				"0": {
+					"type": "pagedown"
+				}
+			}
+		},
+		"gridSize": {
+			"minColumn": 0,
+			"maxColumn": 7,
+			"minRow": 0,
+			"maxRow": 3
+		}
+	},
+	"instances": {
+		"5eN0E2LSVIJU3NmWCZpAz": {
+			"instance_type": "generic-midi",
+			"sortOrder": 5,
+			"label": "generic-midi",
+			"isFirstInit": false,
+			"config": {
+				"inPortName": "",
+				"outPortName": "Microsoft GS Wavetable Synth",
+				"inPortIsVirtual": false,
+				"outPortIsVirtual": false
+			},
+			"lastUpgradeIndex": -1,
+			"enabled": true
+		}
+	},
+	"oldPageNumber": 69
+}
